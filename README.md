@@ -25,13 +25,13 @@ formState: { errors }
 onSubmit={handleSubmit(submitForm)}
 
 ### TextField 
-  type="text"
-  placeholder="...."
-  {...register("firstName", { 
-        required: ...
-        maxLength: .... 
-      }
-    }
+type="text"
+placeholder="...."
+{...register("firstName", { 
+    required: ...
+    maxLength: .... 
+  }
+}
 
 { errors.firstName && ..... }
 
