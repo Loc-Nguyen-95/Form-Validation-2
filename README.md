@@ -18,8 +18,7 @@ control,
 handleSubmit,
 formState: { errors }
 
-## function submitData (data)
-... log( "res:", data )
+## function submitData (data) => log( "res:", data )
 
 ## Form 
 onSubmit={handleSubmit(submitForm)}
